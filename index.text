@@ -1,0 +1,137 @@
+title: impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers
+author: Bartek Szopka
+
+
+%%%%%
+%% Add some inline style rules...
+
+%css
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  background-image: -webkit-linear-gradient(top left, silver, white);
+  background-image:    -moz-linear-gradient(top left, silver, white);
+  background-image:     -ms-linear-gradient(top left, silver, white);
+  background-image:      -o-linear-gradient(top left, silver, white);
+  background-image:         linear-gradient(top left, silver, white);
+}
+
+.step {
+  width: 700px;
+  height: 400px;
+  padding: 40px 60px;
+
+  font-size: 48px;
+  text-align: center;
+
+  opacity: 0.3;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+.slide {
+  background: white;
+}
+
+code {
+  background-color: yellow;
+  font-size: 14px;
+}
+
+%end
+
+
+%%%%%%%%%%%%%%%%%%%
+%% Here we go...
+
+
+!SLIDE  x=-2000 y=-1500 scale=4
+
+Tietorakenteiden harjoitustyö
+
+!SLIDE  x=-2000 y=-1800 scale=0.1
+Ohjaajina:
+
+Lauri *Fleuri* Suomalainen  
+Jarmo *Jamo* Isotalo  
+Neo *nml* Lehtola  
+
+
+!SLIDE  x=-3000 y=-1500 scale=2
+Kurssin tavoitteet
+
+!SLIDE x=-3000 y=-1300
+Kursilla opiskelija toteuttaa ohjelman, joka ratkaisee jonkin ohjelmointiongelman. Ongelmanratkaisuun käytetään sopivia algoritmeja sekä tietorakenteita.
+
+!SLIDE x=-3000 y=-900
+Kurssi pidetään osittain verkkokurssina - kaikki viikoittaiset palautukset tapahtuvat verkon kautta. 
+
+!SLIDE x=-3000 y=-600
+Ainoa *pakollinen* tapaaminen laitoksella on loppudemo, joka pidetään keskiviikkona ja torstaina 28-29.8.2013.
+
+!SLIDE x=-3000 y=-300
+Kurssin suoritukseen saa apua viikottain pidettävinä paja-aikoina. Paja-ajat ilmoitetaan kurssiwikissä. Linkki wikiin kurssisivuilla.
+
+Sekä IRCn kautta #kesatira2013 @IRCnet
+
+!SLIDE  x=-2200 y=-450 scale=2 rotate=-90
+Kurssin toimintatavat
+
+!SLIDE  x=-2100 y=-450 rotate=-90
+Tavoite on oppia itse toteuttamaan tietorakenteita.
+
+!SLIDE  x=-1900 y=-450 rotate=-90
+Ohjelma toteutetaan Javalla
+
+!SLIDE  x=-1700 y=-450 rotate=-90
+Valmiita javan tietorakenteita ei saa käyttää, vain taulukot ja perustietotyypit ok!
+
+!SLIDE  x=-1400 y=-450 rotate=-90
+Suositeltu tapa on toteuttaa ensin työn aiheena oleva algoritmi javan valmista kalustoa käyttämällä ja sitten korvata ne omilla toteutuksilla
+
+!SLIDE  x=-1100 y=-450 rotate=-90
+Ohjelma tulee testata kattavasti heti alusta alkaen
+
+!SLIDE  x=-0 y=-1000 rotate=-180 scale=2
+GIT (Versionhallinta)
+
+!SLIDE  x=-0 y=-1200 rotate=-180
+Koodi ja dokumentaatio pidetään versionhallinnassa; kurssilla käytetään GIT versionhallintaa sekä GitHubia helppoon ohjelmakoodin jakoon ja katselmointiin.
+
+!SLIDE  x=-0 y=-1500 rotate=-180
+Viikottaiset palautukset tehdään githubiin tekemällä pullrequest repoon, josta tehtäväpohjan forkkasit.
+
+!SLIDE  x=-0 y=-1900 rotate=-180
+Kirjoita pull requestiin omia aatteita edistyksestäsi sekä mahdollisista haasteista joihin törmäsit.
+
+
+!SLIDE  x=-2000 y=-1200 rotate=-0 scale=2
+Aiheet
+!SLIDE  x=-2000 y=-1300 rotate=-0 scale=0.5
+Aihe ehdoituksia löytyy wikistä:
+**https://tinyurl.com/aiheetk2013**
+Linkki tuonne myös wikin home-sivulla
+
+!SLIDE  x=-1000 y=600 rotate=0 scale=3
+Ryhmäjako
+
+!SLIDE  x=-1000 y=650 rotate=0
+Ryhmäjako tehtiin alkukyselyn vastausten perusteella tasapainoisten ryhmien luomiseksi.
+
+!SLIDE  x=-3500 y=700 rotate=0
+Jarmon Ryhmä
+
+!SLIDE  x=-2700 y=700 rotate=0
+Neon Ryhmä
+
+!SLIDE  x=-2000 y=700 rotate=0
+Laurin ryhmä Ryhmä
+
+
+!SLIDE x=-1000 y=0 scale=6
